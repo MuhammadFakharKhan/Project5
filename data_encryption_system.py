@@ -2,7 +2,7 @@ import streamlit as st
 import hashlib
 import base64
 from cryptography.fernet import Fernet, InvalidToken
-# Removed unused import
+
 
 def hash_passkey(passkey):
     """Hash the passkey using SHA-256."""
